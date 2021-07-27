@@ -1,0 +1,45 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+
+super class name: java/lang/Enum
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters method: values type: ()[Lpt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters method: valueOf type: (Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters method: <init> type: (Ljava/lang/String;ILjava/lang/String;)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: parseValues type: ()V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: setupCLIOptions type: ()V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: <init> type: ([Ljava/lang/String;)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: getServerAddress type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: getServerPort type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: getMapsDirectory type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: isDebugging type: ()Ljava/lang/Boolean;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/ServerArgumentParser method: getOutputDirectory type: ()Ljava/lang/String;
+	Access_flags: 1
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/server/WebServer$MyHandler method: <init> type: ()V
+	Access_flags: 0
+class: pt/ulisboa/tecnico/cnv/server/WebServer$MyHandler method: handle type: (Lcom/sun/net/httpserver/HttpExchange;)V
+	Access_flags: 1
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/server/WebServer method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/server/WebServer method: main type: ([Ljava/lang/String;)V
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/server/WebServer method: <clinit> type: ()V
+	Access_flags: 8

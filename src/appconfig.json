@@ -1,0 +1,27 @@
+{
+  "autoscaler": {
+    "mainLoopPeriod": 10,
+    "clusterOverLoadThreshold": 70.0,
+    "clusterUnderLoadThreshold": 35.0,
+    "unitOverLoadThreshold": 90.0,
+    "unitUnderLoadThreshold": 20.0,
+    "unitFailedPingsThreshold": 15,
+    "unitStartupCountThreshold": 6
+  },
+  "loadbalancer": {
+    "minSimilarity": 0.6,
+    "maxAttempts": 15,
+    "elasticIp": "34.194.90.215",
+    "port": "8000"
+  },
+  "cluster": {
+    "maxUnitLoad": 8e7,
+    "credentialsFile": "credentials_meneses",
+    "minSize": 2,
+    "maxSize": 10,
+    "securityGroup": "CNV-ssh+http",
+    "elasticAllocationId": "eipalloc-0829cf29b4593ef48",
+    "imageId": "ami-05046706ae8941ebc"
+  }
+}
+

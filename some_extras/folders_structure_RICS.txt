@@ -1,0 +1,512 @@
+.
+├── BIT
+├── RadarScanner_CNV
+├── aws-java-sdk-1.11.998
+├── cnv-project
+├── cnv-project-instrumented
+├── git-repo-test
+├── lab5
+├── pin
+├── project
+└── tmp
+
+10 directories
+cnv-project
+├── META-INF
+│   ├── MANIFEST.MF
+│   └── maven
+│       └── pt.ulisboa.tecnico.meic.ccv
+│           └── ccv-gradients
+│               ├── pom.properties
+│               └── pom.xml
+├── STUDENT-README.md
+├── datasets
+│   ├── BIG_1024x1024_1.png
+│   ├── SIMPLE_VORONOI_1024x1024_1.png
+│   ├── SIMPLE_VORONOI_1024x1024_2.png
+│   ├── SIMPLE_VORONOI_1024x1024_3.png
+│   ├── SIMPLE_VORONOI_1024x1024_4.png
+│   ├── SIMPLE_VORONOI_1024x1024_5.png
+│   ├── SIMPLE_VORONOI_1024x1024_6.png
+│   ├── SIMPLE_VORONOI_1024x1024_7.png
+│   ├── SIMPLE_VORONOI_1024x1024_8.png
+│   ├── SIMPLE_VORONOI_2048x2048_1.png
+│   ├── SIMPLE_VORONOI_2048x2048_2.png
+│   ├── SIMPLE_VORONOI_2048x2048_3.png
+│   ├── SIMPLE_VORONOI_2048x2048_4.png
+│   ├── SIMPLE_VORONOI_2048x2048_5.png
+│   ├── SIMPLE_VORONOI_2048x2048_6.png
+│   ├── SIMPLE_VORONOI_2048x2048_7.png
+│   ├── SIMPLE_VORONOI_2048x2048_8.png
+│   ├── SIMPLE_VORONOI_512x512_1.png
+│   ├── SIMPLE_VORONOI_512x512_2.png
+│   ├── SIMPLE_VORONOI_512x512_3.png
+│   └── SIMPLE_VORONOI_512x512_4.png
+├── ist-flag-transparent-bg-resized.png
+├── ist-flag-transparent-bg.png
+├── org
+│   └── apache
+│       └── commons
+│           ├── cli
+│           │   ├── AlreadySelectedException.class
+│           │   ├── AmbiguousOptionException.class
+│           │   ├── BasicParser.class
+│           │   ├── CommandLine$Builder.class
+│           │   ├── CommandLine.class
+│           │   ├── CommandLineParser.class
+│           │   ├── DefaultParser.class
+│           │   ├── GnuParser.class
+│           │   ├── HelpFormatter$1.class
+│           │   ├── HelpFormatter$OptionComparator.class
+│           │   ├── HelpFormatter.class
+│           │   ├── MissingArgumentException.class
+│           │   ├── MissingOptionException.class
+│           │   ├── Option$1.class
+│           │   ├── Option$Builder.class
+│           │   ├── Option.class
+│           │   ├── OptionBuilder.class
+│           │   ├── OptionGroup.class
+│           │   ├── OptionValidator.class
+│           │   ├── Options.class
+│           │   ├── ParseException.class
+│           │   ├── Parser.class
+│           │   ├── PatternOptionBuilder.class
+│           │   ├── PosixParser.class
+│           │   ├── TypeHandler.class
+│           │   ├── UnrecognizedOptionException.class
+│           │   └── Util.class
+│           └── io
+│               ├── IOUtils.class
+│               ├── input
+│               │   └── ClosedInputStream.class
+│               └── output
+│                   ├── ByteArrayOutputStream.class
+│                   └── StringBuilderWriter.class
+├── pt
+│   └── ulisboa
+│       └── tecnico
+│           └── cnv
+│               ├── solver
+│               │   ├── AbstractSolverStrategy.class
+│               │   ├── Coordinate.class
+│               │   ├── GreedyRangeScanSolverStrategy.class
+│               │   ├── GridScanSolverStrategy.class
+│               │   ├── ProgressiveScanSolverStrategy.class
+│               │   ├── Solver$Viewport.class
+│               │   ├── Solver.class
+│               │   ├── SolverArgumentParser$SolverParameters.class
+│               │   ├── SolverArgumentParser.class
+│               │   ├── SolverFactory$SolverType.class
+│               │   ├── SolverFactory.class
+│               │   ├── SolverMain.class
+│               │   └── SolverStrategy.class
+│               ├── util
+│               │   ├── AbstractArgumentParser$GenericParameters.class
+│               │   ├── AbstractArgumentParser.class
+│               │   ├── ArgumentParser.class
+│               │   ├── Gradient$GradientType.class
+│               │   ├── Gradient.class
+│               │   ├── ImageBuilder.class
+│               │   ├── ImageBuilderFactory.class
+│               │   ├── ImageBuilderStrategy.class
+│               │   ├── Perlin2d.class
+│               │   ├── ProjectLogFormatter.class
+│               │   ├── interpolator
+│               │   │   ├── CosineInterpolator.class
+│               │   │   ├── Interpolator.class
+│               │   │   └── LinearInterpolator.class
+│               │   └── voronoi
+│               │       ├── Point2D.class
+│               │       ├── Point3D.class
+│               │       └── Voronoi.class
+│               └── server
+│                   ├── ServerArgumentParser$ServerParameters.class
+│                   ├── ServerArgumentParser.class
+│                   ├── ServerArgumentParser.java
+│                   ├── WebServer$MyHandler.class
+│                   ├── WebServer.class
+│                   ├── WebServer.java
+│                   └── WebServer2.java
+├── simplejava.java
+├── simplejava.class
+├── results
+│   ├── GRID_SCAN_512x512_2021-04-25_23-03-18.png
+│   └── GRID_SCAN_512x512_2021-04-25_23-09-58.png
+└── out
+
+23 directories, 98 files
+cnv-project-instrumented
+├── STUDENT-README.md
+├── ist-flag-transparent-bg-resized.png
+├── ist-flag-transparent-bg.png
+├── simplejava.java
+├── simplejava.class
+├── META-INF
+│   ├── MANIFEST.MF
+│   └── maven
+│       └── pt.ulisboa.tecnico.meic.ccv
+│           └── ccv-gradients
+│               ├── pom.properties
+│               └── pom.xml
+├── datasets
+│   ├── BIG_1024x1024_1.png
+│   ├── SIMPLE_VORONOI_1024x1024_1.png
+│   ├── SIMPLE_VORONOI_1024x1024_2.png
+│   ├── SIMPLE_VORONOI_1024x1024_3.png
+│   ├── SIMPLE_VORONOI_1024x1024_4.png
+│   ├── SIMPLE_VORONOI_1024x1024_5.png
+│   ├── SIMPLE_VORONOI_1024x1024_6.png
+│   ├── SIMPLE_VORONOI_1024x1024_7.png
+│   ├── SIMPLE_VORONOI_1024x1024_8.png
+│   ├── SIMPLE_VORONOI_2048x2048_1.png
+│   ├── SIMPLE_VORONOI_2048x2048_2.png
+│   ├── SIMPLE_VORONOI_2048x2048_3.png
+│   ├── SIMPLE_VORONOI_2048x2048_4.png
+│   ├── SIMPLE_VORONOI_2048x2048_5.png
+│   ├── SIMPLE_VORONOI_2048x2048_6.png
+│   ├── SIMPLE_VORONOI_2048x2048_7.png
+│   ├── SIMPLE_VORONOI_2048x2048_8.png
+│   ├── SIMPLE_VORONOI_512x512_1.png
+│   ├── SIMPLE_VORONOI_512x512_2.png
+│   ├── SIMPLE_VORONOI_512x512_3.png
+│   └── SIMPLE_VORONOI_512x512_4.png
+├── org
+│   └── apache
+│       └── commons
+│           ├── cli
+│           │   ├── AlreadySelectedException.class
+│           │   ├── AmbiguousOptionException.class
+│           │   ├── BasicParser.class
+│           │   ├── CommandLine$Builder.class
+│           │   ├── CommandLine.class
+│           │   ├── CommandLineParser.class
+│           │   ├── DefaultParser.class
+│           │   ├── GnuParser.class
+│           │   ├── HelpFormatter$1.class
+│           │   ├── HelpFormatter$OptionComparator.class
+│           │   ├── HelpFormatter.class
+│           │   ├── MissingArgumentException.class
+│           │   ├── MissingOptionException.class
+│           │   ├── Option$1.class
+│           │   ├── Option$Builder.class
+│           │   ├── Option.class
+│           │   ├── OptionBuilder.class
+│           │   ├── OptionGroup.class
+│           │   ├── OptionValidator.class
+│           │   ├── Options.class
+│           │   ├── ParseException.class
+│           │   ├── Parser.class
+│           │   ├── PatternOptionBuilder.class
+│           │   ├── PosixParser.class
+│           │   ├── TypeHandler.class
+│           │   ├── UnrecognizedOptionException.class
+│           │   └── Util.class
+│           └── io
+│               ├── IOUtils.class
+│               ├── input
+│               │   └── ClosedInputStream.class
+│               └── output
+│                   ├── ByteArrayOutputStream.class
+│                   └── StringBuilderWriter.class
+├── pt
+│   └── ulisboa
+│       └── tecnico
+│           └── cnv
+│               ├── util
+│               │   ├── AbstractArgumentParser$GenericParameters.class
+│               │   ├── AbstractArgumentParser.class
+│               │   ├── ArgumentParser.class
+│               │   ├── Gradient$GradientType.class
+│               │   ├── Gradient.class
+│               │   ├── ImageBuilder.class
+│               │   ├── ImageBuilderFactory.class
+│               │   ├── ImageBuilderStrategy.class
+│               │   ├── Perlin2d.class
+│               │   ├── ProjectLogFormatter.class
+│               │   ├── interpolator
+│               │   │   ├── CosineInterpolator.class
+│               │   │   ├── Interpolator.class
+│               │   │   └── LinearInterpolator.class
+│               │   └── voronoi
+│               │       ├── Point2D.class
+│               │       ├── Point3D.class
+│               │       └── Voronoi.class
+│               ├── solver_bit
+│               │   ├── AbstractSolverStrategy.class
+│               │   ├── Coordinate.class
+│               │   ├── GreedyRangeScanSolverStrategy.class
+│               │   ├── GridScanSolverStrategy.class
+│               │   ├── ProgressiveScanSolverStrategy.class
+│               │   ├── Solver$Viewport.class
+│               │   ├── Solver.class
+│               │   ├── SolverArgumentParser$SolverParameters.class
+│               │   ├── SolverArgumentParser.class
+│               │   ├── SolverFactory$SolverType.class
+│               │   ├── SolverFactory.class
+│               │   ├── SolverMain.class
+│               │   └── SolverStrategy.class
+│               ├── server
+│               │   ├── ServerArgumentParser.java
+│               │   ├── WebServer.java
+│               │   ├── WebServer2.java
+│               │   ├── ServerArgumentParser$ServerParameters.class
+│               │   ├── ServerArgumentParser.class
+│               │   ├── WebServer$MyHandler.class
+│               │   └── WebServer.class
+│               ├── solver_main
+│               │   ├── AbstractSolverStrategy.class
+│               │   ├── Coordinate.class
+│               │   ├── GreedyRangeScanSolverStrategy.class
+│               │   ├── GridScanSolverStrategy.class
+│               │   ├── ProgressiveScanSolverStrategy.class
+│               │   ├── Solver$Viewport.class
+│               │   ├── Solver.class
+│               │   ├── SolverArgumentParser$SolverParameters.class
+│               │   ├── SolverArgumentParser.class
+│               │   ├── SolverFactory$SolverType.class
+│               │   ├── SolverFactory.class
+│               │   ├── SolverMain.class
+│               │   └── SolverStrategy.class
+│               └── solver
+│                   ├── AbstractSolverStrategy.class
+│                   ├── Coordinate.class
+│                   ├── GreedyRangeScanSolverStrategy.class
+│                   ├── GridScanSolverStrategy.class
+│                   ├── ProgressiveScanSolverStrategy.class
+│                   ├── Solver$Viewport.class
+│                   ├── Solver.class
+│                   ├── SolverArgumentParser$SolverParameters.class
+│                   ├── SolverArgumentParser.class
+│                   ├── SolverFactory$SolverType.class
+│                   ├── SolverFactory.class
+│                   ├── SolverMain.class
+│                   └── SolverStrategy.class
+├── results
+│   ├── GRID_SCAN_512x512_2021-04-25_23-03-18.png
+│   ├── GRID_SCAN_512x512_2021-04-25_23-09-58.png
+│   ├── GRID_SCAN_512x512_2021-04-25_23-33-51.png
+│   └── GRID_SCAN_512x512_2021-04-25_23-41-58.png
+├── DynamoConfig.class
+├── cnv-project
+│   ├── META-INF
+│   │   ├── MANIFEST.MF
+│   │   └── maven
+│   │       └── pt.ulisboa.tecnico.meic.ccv
+│   │           └── ccv-gradients
+│   │               ├── pom.properties
+│   │               └── pom.xml
+│   ├── datasets
+│   │   ├── BIG_1024x1024_1.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_1.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_2.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_3.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_4.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_5.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_6.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_7.png
+│   │   ├── SIMPLE_VORONOI_1024x1024_8.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_1.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_2.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_3.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_4.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_5.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_6.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_7.png
+│   │   ├── SIMPLE_VORONOI_2048x2048_8.png
+│   │   ├── SIMPLE_VORONOI_512x512_1.png
+│   │   ├── SIMPLE_VORONOI_512x512_2.png
+│   │   ├── SIMPLE_VORONOI_512x512_3.png
+│   │   └── SIMPLE_VORONOI_512x512_4.png
+│   ├── ist-flag-transparent-bg-resized.png
+│   ├── ist-flag-transparent-bg.png
+│   ├── org
+│   │   └── apache
+│   │       └── commons
+│   │           ├── cli
+│   │           │   ├── AlreadySelectedException.class
+│   │           │   ├── AmbiguousOptionException.class
+│   │           │   ├── BasicParser.class
+│   │           │   ├── CommandLine$Builder.class
+│   │           │   ├── CommandLine.class
+│   │           │   ├── CommandLineParser.class
+│   │           │   ├── DefaultParser.class
+│   │           │   ├── GnuParser.class
+│   │           │   ├── HelpFormatter$1.class
+│   │           │   ├── HelpFormatter$OptionComparator.class
+│   │           │   ├── HelpFormatter.class
+│   │           │   ├── MissingArgumentException.class
+│   │           │   ├── MissingOptionException.class
+│   │           │   ├── Option$1.class
+│   │           │   ├── Option$Builder.class
+│   │           │   ├── Option.class
+│   │           │   ├── OptionBuilder.class
+│   │           │   ├── OptionGroup.class
+│   │           │   ├── OptionValidator.class
+│   │           │   ├── Options.class
+│   │           │   ├── ParseException.class
+│   │           │   ├── Parser.class
+│   │           │   ├── PatternOptionBuilder.class
+│   │           │   ├── PosixParser.class
+│   │           │   ├── TypeHandler.class
+│   │           │   ├── UnrecognizedOptionException.class
+│   │           │   └── Util.class
+│   │           └── io
+│   │               ├── IOUtils.class
+│   │               ├── input
+│   │               │   └── ClosedInputStream.class
+│   │               └── output
+│   │                   ├── ByteArrayOutputStream.class
+│   │                   └── StringBuilderWriter.class
+│   ├── out
+│   ├── pt
+│   │   └── ulisboa
+│   │       └── tecnico
+│   │           └── cnv
+│   │               ├── server
+│   │               │   ├── ServerArgumentParser$ServerParameters.class
+│   │               │   ├── ServerArgumentParser.class
+│   │               │   ├── ServerArgumentParser.java
+│   │               │   ├── WebServer$MyHandler.class
+│   │               │   ├── WebServer.class
+│   │               │   ├── WebServer.java
+│   │               │   └── WebServer2.java
+│   │               ├── solver
+│   │               │   ├── AbstractSolverStrategy.class
+│   │               │   ├── Coordinate.class
+│   │               │   ├── GreedyRangeScanSolverStrategy.class
+│   │               │   ├── GridScanSolverStrategy.class
+│   │               │   ├── ProgressiveScanSolverStrategy.class
+│   │               │   ├── Solver$Viewport.class
+│   │               │   ├── Solver.class
+│   │               │   ├── SolverArgumentParser$SolverParameters.class
+│   │               │   ├── SolverArgumentParser.class
+│   │               │   ├── SolverFactory$SolverType.class
+│   │               │   ├── SolverFactory.class
+│   │               │   ├── SolverMain.class
+│   │               │   └── SolverStrategy.class
+│   │               └── util
+│   │                   ├── AbstractArgumentParser$GenericParameters.class
+│   │                   ├── AbstractArgumentParser.class
+│   │                   ├── ArgumentParser.class
+│   │                   ├── Gradient$GradientType.class
+│   │                   ├── Gradient.class
+│   │                   ├── ImageBuilder.class
+│   │                   ├── ImageBuilderFactory.class
+│   │                   ├── ImageBuilderStrategy.class
+│   │                   ├── Perlin2d.class
+│   │                   ├── ProjectLogFormatter.class
+│   │                   ├── interpolator
+│   │                   │   ├── CosineInterpolator.class
+│   │                   │   ├── Interpolator.class
+│   │                   │   └── LinearInterpolator.class
+│   │                   └── voronoi
+│   │                       ├── Point2D.class
+│   │                       ├── Point3D.class
+│   │                       └── Voronoi.class
+│   ├── STUDENT-README.md
+│   ├── results
+│   │   ├── GRID_SCAN_512x512_2021-04-25_23-03-18.png
+│   │   └── GRID_SCAN_512x512_2021-04-25_23-09-58.png
+│   ├── simplejava.class
+│   └── simplejava.java
+├── scriptTest.sh
+├── output.txt
+└── out
+    ├── GRID_SCAN_512x512_2021-04-27_23-25-38.png
+    ├── GRID_SCAN_1024x1024_2021-04-27_23-49-13.png
+    ├── GRID_SCAN_1024x1024_2021-04-27_23-49-18.png
+    ├── PROGRESSIVE_SCAN_1024x1024_2021-04-27_23-49-22.png
+    ├── PROGRESSIVE_SCAN_1024x1024_2021-04-27_23-49-26.png
+    ├── GREEDY_RANGE_SCAN_1024x1024_2021-04-27_23-49-29.png
+    ├── GREEDY_RANGE_SCAN_1024x1024_2021-04-27_23-49-32.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_00-57-38.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_00-57-43.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_00-57-51.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_00-58-00.png
+    ├── GREEDY_RANGE_SCAN_1024x1024_2021-04-28_00-58-04.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_00-58-10.png
+    ├── PROGRESSIVE_SCAN_2048x2048_2021-04-28_00-58-16.png
+    ├── PROGRESSIVE_SCAN_2048x2048_2021-04-28_00-58-22.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_00-58-27.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_00-58-32.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-20-43.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_17-20-49.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-20-55.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-21-02.png
+    ├── GREEDY_RANGE_SCAN_1024x1024_2021-04-28_17-21-06.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-21-13.png
+    ├── PROGRESSIVE_SCAN_2048x2048_2021-04-28_17-21-19.png
+    ├── PROGRESSIVE_SCAN_2048x2048_2021-04-28_17-21-25.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_17-21-31.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-21-41.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-24-23.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_17-24-29.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-26-23.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_17-26-29.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_17-26-41.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-00-39.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_18-00-45.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-00-52.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-00-59.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-05-11.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_18-05-17.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-13-52.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-17-08.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-21-57.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-26-10.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_18-26-29.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-26-52.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_18-27-15.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_19-11-21.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_19-11-42.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_19-14-10.png
+    ├── GREEDY_RANGE_SCAN_2048x2048_2021-04-28_19-14-30.png
+    ├── GRID_SCAN_2048x2048_2021-04-28_19-14-56.png
+    └── GRID_SCAN_2048x2048_2021-04-28_19-15-22.png
+
+49 directories, 278 files
+git-repo-test/
+└── hello-java
+    ├── EC2LaunchWaitTerminate.java
+    ├── README.txt
+    ├── local
+    │   └── java-config-rnl-vm.sh
+    ├── EC2LaunchWaitTerminate.class
+    ├── hello-java.iml
+    ├── EC2TerminateAll.class
+    ├── EC2TerminateAll.java
+    ├── EC2LaunchMeasureCPU.class
+    ├── AmazonDynamoDBSample.java
+    ├── AmazonDynamoDBSample.class
+    ├── AmazonDynamoDBRead.java
+    ├── AmazonDynamoDBRead.class
+    ├── EC2LaunchMeasureCPU.java
+    ├── AmazonDynamoDBInsert.class
+    ├── AmazonDynamoDBInsert.java
+    ├── src
+    │   └── aws
+    │       └── AmazonDynamoDBInsert.class
+    ├── OurICount.java
+    ├── DynamoConfig.java
+    ├── DynamoConfig.class
+    ├── out
+    │   ├── AbstractSolverStrategy.class
+    │   ├── Coordinate.class
+    │   ├── GreedyRangeScanSolverStrategy.class
+    │   ├── GridScanSolverStrategy.class
+    │   ├── ProgressiveScanSolverStrategy.class
+    │   ├── Solver$Viewport.class
+    │   ├── Solver.class
+    │   ├── SolverArgumentParser$SolverParameters.class
+    │   ├── SolverArgumentParser.class
+    │   ├── SolverFactory$SolverType.class
+    │   ├── SolverFactory.class
+    │   ├── SolverMain.class
+    │   └── SolverStrategy.class
+    ├── AmazonDynamoDBCreateTable.java
+    ├── AmazonDynamoDBCreateTable.class
+    ├── out.txt
+    ├── OurStatisticsTool_v1.class
+    └── OurStatisticsTool_v1.java
+
+5 directories, 37 files

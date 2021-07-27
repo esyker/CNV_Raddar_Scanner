@@ -1,0 +1,14 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy size: 681 const: 30 fields: 2 interfaces: 1 methods: 3 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/GreedyRangeScanSolverStrategy size: 6920 const: 254 fields: 2 interfaces: 0 methods: 3 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/GridScanSolverStrategy size: 3628 const: 129 fields: 0 interfaces: 0 methods: 2 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/ProgressiveScanSolverStrategy size: 3241 const: 153 fields: 1 interfaces: 0 methods: 2 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/Solver$Viewport size: 1188 const: 48 fields: 5 interfaces: 0 methods: 6 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/Solver size: 8058 const: 385 fields: 11 interfaces: 0 methods: 23 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters size: 2215 const: 118 fields: 13 interfaces: 0 methods: 5 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser size: 8182 const: 315 fields: 0 interfaces: 0 methods: 12 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType size: 1984 const: 89 fields: 5 interfaces: 0 methods: 6 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverFactory size: 2395 const: 104 fields: 1 interfaces: 0 methods: 5 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverMain size: 2291 const: 117 fields: 0 interfaces: 0 methods: 2 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/solver/SolverStrategy size: 270 const: 11 fields: 0 interfaces: 0 methods: 2 bytecodes: 0.0
+Totals: class size: 41053.0 const: 1753.0 fields: 40.0 interfaces: 1.0 methods: 71.0 bytecodes: 0.0

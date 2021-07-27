@@ -1,0 +1,12 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+Static information summary:
+Number of class files:  4
+Number of methods:      18
+Number of basic blocks: 300
+Number of instructions: 833
+Average number of instructions per basic block: 2.7766666
+Average number of instructions per method:      46.27778
+Average number of instructions per class:       208.25
+Average number of basic blocks per method:      16.666666
+Average number of basic blocks per class:       75.0
+Average number of methods per class:            4.5

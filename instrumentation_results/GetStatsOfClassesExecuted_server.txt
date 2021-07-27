@@ -1,0 +1,4 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+pt/ulisboa/tecnico/cnv/server/ServerArgumentParser$ServerParameters size: 1927 const: 94 fields: 9 interfaces: 0 methods: 5 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/server/WebServer size: 2006 const: 111 fields: 1 interfaces: 0 methods: 3 bytecodes: 0.0
+Totals: class size: 3933.0 const: 205.0 fields: 10.0 interfaces: 0.0 methods: 8.0 bytecodes: 0.0

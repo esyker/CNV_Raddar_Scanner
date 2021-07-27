@@ -1,0 +1,9 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters size: 2139 const: 112 fields: 12 interfaces: 0 methods: 5 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/Gradient size: 4860 const: 221 fields: 12 interfaces: 0 methods: 8 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/ImageBuilder size: 2234 const: 105 fields: 1 interfaces: 0 methods: 4 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory size: 2304 const: 95 fields: 2 interfaces: 0 methods: 5 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/ImageBuilderStrategy size: 260 const: 11 fields: 0 interfaces: 0 methods: 2 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/Perlin2d size: 4657 const: 174 fields: 10 interfaces: 0 methods: 13 bytecodes: 0.0
+pt/ulisboa/tecnico/cnv/util/ProjectLogFormatter size: 745 const: 38 fields: 0 interfaces: 0 methods: 2 bytecodes: 0.0
+Totals: class size: 17199.0 const: 756.0 fields: 37.0 interfaces: 0.0 methods: 39.0 bytecodes: 0.0

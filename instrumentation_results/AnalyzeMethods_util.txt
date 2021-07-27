@@ -1,0 +1,135 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+
+super class name: java/lang/Enum
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters method: values type: ()[Lpt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters method: valueOf type: (Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters method: <init> type: (Ljava/lang/String;ILjava/lang/String;)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser$GenericParameters method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: setup type: ([Ljava/lang/String;)V
+	Access_flags: 20
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: parseValues type: ([Ljava/lang/String;)V
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: setupCLIOptions type: ()V
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: isDebugging type: ()Ljava/lang/Boolean;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: getColourScheme type: ()Lpt/ulisboa/tecnico/cnv/util/Gradient$GradientType;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: getWidth type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: getHeight type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: getOutputDirectory type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/ArgumentParser method: parseValues type: ([Ljava/lang/String;)V
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/util/ArgumentParser method: setupCLIOptions type: ()V
+	Access_flags: 1025
+
+super class name: java/lang/Enum
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: values type: ()[Lpt/ulisboa/tecnico/cnv/util/Gradient$GradientType;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: valueOf type: (Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/util/Gradient$GradientType;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: <init> type: (Ljava/lang/String;ILjava/lang/String;)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: isValid type: (Ljava/lang/String;)Ljava/lang/Boolean;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient$GradientType method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: getGradientFromEnum type: (Ljava/lang/String;)[Ljava/awt/Color;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: getGradientFromEnum type: (Lpt/ulisboa/tecnico/cnv/util/Gradient$GradientType;)[Ljava/awt/Color;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: createIllusiveWhites type: (I)[Ljava/awt/Color;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: <init> type: (I)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: createVoronoiRandomColors type: (I)[Ljava/awt/Color;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: normalizeAlpha type: ([Ljava/awt/Color;)V
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: createGradient type: (Ljava/awt/Color;Ljava/awt/Color;I)[Ljava/awt/Color;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/Gradient method: createMultiGradient type: ([Ljava/awt/Color;I)[Ljava/awt/Color;
+	Access_flags: 9
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilder method: <init> type: ()V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilder method: deepCopyImage type: (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilder method: buildImage type: ([[D[Ljava/awt/Color;)Ljava/awt/image/BufferedImage;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilder method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory method: <init> type: ()V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory method: getInstance type: ()Lpt/ulisboa/tecnico/cnv/util/ImageBuilderFactory;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory method: buildImage type: (Lpt/ulisboa/tecnico/cnv/generator/GeneratorFactory$GeneratorType;[[D[Ljava/awt/Color;)Ljava/awt/image/BufferedImage;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory method: buildImage type: ([[D[Ljava/awt/Color;)Ljava/awt/image/BufferedImage;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderFactory method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderStrategy method: generate type: (Lpt/ulisboa/tecnico/cnv/generator/Generator;)V
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/util/ImageBuilderStrategy method: toString type: ()Ljava/lang/String;
+	Access_flags: 1025
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: <init> type: (DIILpt/ulisboa/tecnico/cnv/util/interpolator/Interpolator;)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: <init> type: (DII)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: tile type: ([[D)[[D
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: createTiledArray type: (II)[[D
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: createArray type: (II)[[D
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: createRawArray type: (II)[[D
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: clamp type: ([[D)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: setPrimes type: (I)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: perlinNoise2 type: (DD)D
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: noise2 type: (II)D
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: smoothedNoise2 type: (II)D
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: interpolatedNoise2 type: (DD)D
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/util/Perlin2d method: interpolate type: (DDD)D
+	Access_flags: 2
+
+super class name: java/util/logging/Formatter
+class: pt/ulisboa/tecnico/cnv/util/ProjectLogFormatter method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/util/ProjectLogFormatter method: format type: (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+	Access_flags: 1

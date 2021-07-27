@@ -1,0 +1,179 @@
+Picked up _JAVA_OPTIONS: -XX:-UseSplitVerifier -XX:-UseSplitVerifier -XX:-UseSplitVerifier 
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy method: solve type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;)Ljava/awt/image/BufferedImage;
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/Coordinate method: <init> type: (II)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Coordinate method: getX type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Coordinate method: getY type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Coordinate method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Coordinate method: equals type: (Ljava/lang/Object;)Z
+	Access_flags: 1
+
+super class name: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy
+class: pt/ulisboa/tecnico/cnv/solver/GreedyRangeScanSolverStrategy method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/GreedyRangeScanSolverStrategy method: shiftViewportCorner type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;Ljava/awt/image/BufferedImage;Ljava/awt/Point;Ljava/awt/Color;FLjava/awt/Point;II)Ljava/awt/Point;
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/solver/GreedyRangeScanSolverStrategy method: solve type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;)Ljava/awt/image/BufferedImage;
+	Access_flags: 1
+
+super class name: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy
+class: pt/ulisboa/tecnico/cnv/solver/GridScanSolverStrategy method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/GridScanSolverStrategy method: solve type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;)Ljava/awt/image/BufferedImage;
+	Access_flags: 1
+
+super class name: pt/ulisboa/tecnico/cnv/solver/AbstractSolverStrategy
+class: pt/ulisboa/tecnico/cnv/solver/ProgressiveScanSolverStrategy method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/ProgressiveScanSolverStrategy method: solve type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;)Ljava/awt/image/BufferedImage;
+	Access_flags: 1
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: <init> type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;IIII)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: containsCoordinate type: (II)Z
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: getLeftX type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: getRightX type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: getTopY type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver$Viewport method: getBottomY type: ()I
+	Access_flags: 1
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getViewport type: ()Lpt/ulisboa/tecnico/cnv/solver/Solver$Viewport;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getBorderColor type: ()Ljava/awt/Color;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: <init> type: (Lpt/ulisboa/tecnico/cnv/solver/SolverArgumentParser;Lpt/ulisboa/tecnico/cnv/solver/SolverStrategy;)V
+	Access_flags: 4
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: isDebugging type: ()Z
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getSourceImage type: ()Ljava/awt/image/BufferedImage;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getPaintColor type: ()Ljava/awt/Color;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getPaintRed type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getPaintGreen type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getPaintBlue type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getWidth type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getHeight type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getX0 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getY0 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getX1 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getY1 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: solveImage type: ()Ljava/awt/image/BufferedImage;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: isValidCoordinate type: (II)Z
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getStartX type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getStartY type: ()I
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: getPath type: ()Ljava/util/ArrayList;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: checkBoundaries type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/Solver method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Enum
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters method: values type: ()[Lpt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters method: valueOf type: (Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters method: <init> type: (Ljava/lang/String;ILjava/lang/String;)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser$SolverParameters method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: pt/ulisboa/tecnico/cnv/util/AbstractArgumentParser
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: parseValues type: ([Ljava/lang/String;)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: setupCLIOptions type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: <init> type: ([Ljava/lang/String;)V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getPaintColor type: ()Ljava/awt/Color;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getX0 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getY0 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getX1 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getY1 type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getStartX type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getStartY type: ()Ljava/lang/Integer;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getInputImage type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverArgumentParser method: getSolverStrategy type: ()Lpt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType;
+	Access_flags: 1
+
+super class name: java/lang/Enum
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: values type: ()[Lpt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: valueOf type: (Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: <init> type: (Ljava/lang/String;ILjava/lang/String;)V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: toString type: ()Ljava/lang/String;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: isValid type: (Ljava/lang/String;)Ljava/lang/Boolean;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory$SolverType method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory method: <init> type: ()V
+	Access_flags: 2
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory method: getInstance type: ()Lpt/ulisboa/tecnico/cnv/solver/SolverFactory;
+	Access_flags: 9
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory method: makeSolver type: ([Ljava/lang/String;)Lpt/ulisboa/tecnico/cnv/solver/Solver;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory method: makeSolver type: (Lpt/ulisboa/tecnico/cnv/solver/SolverArgumentParser;)Lpt/ulisboa/tecnico/cnv/solver/Solver;
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverFactory method: <clinit> type: ()V
+	Access_flags: 8
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/SolverMain method: <init> type: ()V
+	Access_flags: 1
+class: pt/ulisboa/tecnico/cnv/solver/SolverMain method: main type: ([Ljava/lang/String;)V
+	Access_flags: 9
+
+super class name: java/lang/Object
+class: pt/ulisboa/tecnico/cnv/solver/SolverStrategy method: solve type: (Lpt/ulisboa/tecnico/cnv/solver/Solver;)Ljava/awt/image/BufferedImage;
+	Access_flags: 1025
+class: pt/ulisboa/tecnico/cnv/solver/SolverStrategy method: toString type: ()Ljava/lang/String;
+	Access_flags: 1025
